@@ -672,3 +672,22 @@ a {
   max-width: 500px;
   margin: 0 auto;
 }
+/*Feature*/
+.feature__image {
+  width: 100%;
+}
+.feature p {
+  line-height: 1.4;
+}
+.feature {
+  gap: 8rem 4rem;
+}
+.block-feature__header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+@media screen and (min-width: 768px) {
+  .feature:nth-of-type(even) .feature__content {
+    order: 2;
+  }
+}
