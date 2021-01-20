@@ -609,6 +609,10 @@ a {
   box-shadow: 0 0 0 3px #666;
   border-radius: 5px;
 }
+.nav img {
+  filter: invert(1);
+  max-width: 160px;
+}
 @media screen and (min-width: 768px) {
   .nav__toggler {
     display: none;
@@ -676,6 +680,11 @@ a {
 .block-plans .card {
   max-width: 500px;
   margin: 0 auto;
+}
+@media screen and (min-width: 768px) {
+  .block-plans .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 /*Feature*/
 .feature__image {
